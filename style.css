@@ -1,0 +1,308 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 30vh;
+    width: 100%;
+}
+
+.navrap {
+    padding-top: 20px;
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 25px;
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+
+i {
+    padding-top: 40px;
+}
+
+.icon h2 {
+    font-size: 15px;
+    text-align: justify;
+}
+.icon h4 {
+    text-align: justify;
+}
+
+.menu {
+    height: 10vh;
+    background-color: rgba(206, 2, 2, 0.939);
+}
+
+.menurap {
+    padding-top: 12px;
+    width: 80%;
+    margin: auto;
+}
+
+.menurap ul {
+    text-align: center;
+
+}
+
+.menurap ul li {
+    display: inline;
+    padding: 40px;
+}
+
+.menurap ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menurap ul li a:hover {
+    color: yellow;
+    border-bottom: 2px solid white;
+}
+.backban {
+    height: 900px;
+    width: 1110px;
+    background-image: url("./back.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.effect {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, white, rgba(0, 0, 0, 0));
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.text h2{
+    font-size: 15px;
+}
+.text {
+    width: 60%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
+@keyframes example {
+    from {
+        background-image: linear-gradient(to bottom left, red, red, yellow)
+    }
+
+    to {
+        background-image: linear-gradient(to bottom right, red, red, yellow);
+    }
+}
+
+.rap {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.order {
+    height: 10vh;
+    width: 55%;
+    background-image: linear-gradient(to bottom left, red, red, yellow);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    border-radius: 25px;
+    transition-duration: ease-in 5s;
+    margin-left: 30px;
+    box-shadow: 5px 5px 5px 5px solid palevioletred;
+}
+
+.order:hover {
+    background-image: linear-gradient(to bottom right, red, red, yellow);
+}
+
+.design {
+    height: 50vh;
+    width: 80%;
+}
+
+.pic {
+    height: 35vh;
+    width: 80%;
+    margin-left: 200px;
+    background-image: url("./design.png");
+    background-size: cover;
+}
+
+.txt {
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.item {
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 10px;
+}
+
+.itemr {
+    position: relative;
+    width: 50%;
+    height: 30vh;
+}
+
+.itxt {
+    margin-left: 20px;
+    text-align: center;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    height: 0;
+    width: 150%;
+    opacity: 0;
+    transition: .5s ease-in;
+    background-image: linear-gradient(pink, blue);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.itemr h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(244, 13, 13);
+    text-shadow: 2px 1px rgb(140, 255, 0);
+}
+
+.itemr p {
+    text-align: justify;
+    font-family: cursive;
+    font-size: 15px;
+    color: rgb(255, 251, 0);
+    font-size: bolder;
+}
+
+.itemr img {
+    padding-left: 30px;
+    display: inline;
+}
+
+.itemr:hover .itxt {
+    opacity: 1;
+    height: 43vh;
+}
+
+.cust {
+    height: 50vh;
+}
+
+.review {
+    height: 170vh;
+    background-image: url("./backcust.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    padding-top: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+.overlay h1 {
+    text-align: center;
+    text-shadow: 2px 2px red;
+    text-decoration: underline 5px orangered;
+}
+.crow {
+    display: grid;
+    row-gap: 30px;
+}
+.row {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 80px;
+}
+.name {
+    padding: 20px;
+    width: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+.name h4{
+    width:250px;
+}
+.bord {
+    height: 70vh;
+}
+.brap {
+    width:45%;
+    margin: auto;
+}
+.last {
+    height: 60vh;
+    background-image: linear-gradient(white,blue,purple);
+    padding-top: 30px;
+}
+.lastrap {
+    width:90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 50px;
+    text-align: center;
+}
+.box h2 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+.box p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:yellow;
+    text-align: justify;
+}
+.footer {
+    background-image:linear-gradient(white,white,pink);
+    height:70vh;
+}
+.footerrap {
+    height:50vh;
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.footerrap ul li b {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footerrap ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.footerrap ul li a:hover{
+    font-size: 18px;
+    color: crimson;
+}
